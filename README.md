@@ -16,19 +16,19 @@ cd ./BasedAgent
 
 ```sh
 KEY= # the private key of the wallet
-OPEN_AI_API_KEY= # sk-proj-...
+API_KEY= # the API key for the BasedAgent server
 ```
 
 3. **Install dependencies:**
 
 ```sh
-yarn@10.9.0 install
+yarn install
 ```
 
 4. **Run the project:**
 
 ```sh
-yarn@10.9.0 dev
+yarn dev
 ```
 
 5. Enjoy!
