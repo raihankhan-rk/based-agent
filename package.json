@@ -1,0 +1,19 @@
+{
+  "name": "basedagent",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w & sleep 1 && node --watch dist/index.js",
+    "start": "node dist/index.js",
+    "postinstall": "tsc"
+  },
+  "dependencies": {
+    "@xmtp/message-kit": "latest",
+    "axios": "^1.7.7"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "packageManager": "yarn@10.9.0"
+}
