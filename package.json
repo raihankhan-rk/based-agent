@@ -14,6 +14,5 @@
   },
   "engines": {
     "node": ">=20"
-  },
-  "packageManager": "yarn@10.9.0"
+  }
 }
